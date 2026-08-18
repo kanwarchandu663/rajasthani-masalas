@@ -1,0 +1,190 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial,sans-serif;
+}
+
+body{
+  background:#fff8ef;
+  color:#4b210e;
+}
+
+header{
+  background:#8b1e0f;
+  color:white;
+  padding:18px;
+  text-align:center;
+}
+
+header h1{
+  margin-bottom:12px;
+}
+
+nav{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  padding:8px 13px;
+  border-radius:20px;
+}
+
+nav a:hover{
+  background:#e68a24;
+}
+
+.hero{
+  min-height:430px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:30px;
+  background:linear-gradient(#0005,#0005),
+  url("https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1400&q=80")
+  center/cover;
+  color:white;
+}
+
+.hero h2{
+  font-size:42px;
+  margin-bottom:15px;
+}
+
+.hero p{
+  font-size:19px;
+  margin-bottom:25px;
+}
+
+.btn,button{
+  background:#e68a24;
+  color:white;
+  border:0;
+  padding:12px 22px;
+  border-radius:25px;
+  text-decoration:none;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.section,.about,.contact{
+  padding:45px 8%;
+  text-align:center;
+}
+
+.section h2,.about h2,.contact h2{
+  font-size:32px;
+  margin-bottom:30px;
+}
+
+.cards,.products,.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:22px;
+}
+
+.card,.product{
+  background:white;
+  width:260px;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 4px 15px #0002;
+}
+
+.card span,.emoji{
+  font-size:55px;
+  margin-bottom:15px;
+}
+
+.product h3{
+  margin:10px 0;
+}
+
+.product h4{
+  margin:15px;
+  font-size:19px;
+}
+
+.gallery div{
+  width:220px;
+  height:180px;
+  background:#f1c27d;
+  border-radius:15px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-size:60px;
+  box-shadow:0 4px 12px #0002;
+}
+
+.gallery p{
+  font-size:18px;
+  margin-top:10px;
+}
+
+.about{
+  max-width:850px;
+  margin:auto;
+  line-height:1.8;
+}
+
+.about h3{
+  margin-top:25px;
+}
+
+.contact-box{
+  background:white;
+  max-width:600px;
+  margin:0 auto 25px;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0 4px 15px #0002;
+  line-height:2;
+}
+
+form{
+  max-width:600px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+input,textarea{
+  padding:14px;
+  border:1px solid #ccc;
+  border-radius:10px;
+  font-size:16px;
+}
+
+textarea{
+  min-height:130px;
+}
+
+footer{
+  background:#8b1e0f;
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:20px;
+}
+
+@media(max-width:600px){
+  .hero h2{
+    font-size:30px;
+  }
+
+  .card,.product{
+    width:90%;
+  }
+
+  nav a{
+    font-size:
